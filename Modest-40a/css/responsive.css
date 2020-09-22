@@ -1,0 +1,101 @@
+@media(max-width:1165px) {
+    body,
+    header .header-wrapper,
+    .main-wrapper,
+    .figure-bg,
+    .figure-bg img,
+    .bg-figure .intro,
+    .slick-dots,
+    .main-information,
+    .team-wrapper {
+        min-width: 100%;
+        width: 100%;
+    }
+    header .header-wrapper,
+    .main-wrapper h3,
+    .bg-figure .intro,
+    .main-information,
+    .advantages-wrapper,
+    .slick-dots,
+    .team-wrapper h3 {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .main-article {
+        width: 580px;
+    }
+    .advantages-wrapper {
+        width: 350px;
+    }
+}
+
+@media(max-width:1080px) {
+    .bg-figure .intro {
+        bottom: 22%;
+    }
+    .bg-figure .intro h2 {
+        font-size: 32px;
+    }
+    .bg-figure .intro p {
+        font-size: 14px;
+    }
+    .main-information {
+        display: block;
+    }
+    .about-company,
+    .advantages-wrapper,
+    .main-article {
+        width: 100%;
+    }
+    .advantages-wrapper {
+        padding-left: 55px;
+        padding-bottom: 50px;
+    }
+}
+
+@media(max-width:845px) {
+    .navigation-main {
+        display: none;
+    }
+    .navigation-mobile {
+        display: block;
+    }
+    .bg-figure .intro {
+        bottom: 14%;
+    }
+    .bg-figure .intro h2 {
+        padding-bottom: 5px;
+        font-size: 28px;
+    }
+    .bg-figure p {
+        padding-bottom: 20px;
+    }
+    .main-wrapper {
+        padding-top: 43px;
+    }
+    .main-wrapper h3 {
+        padding-bottom: 52px;
+    }
+    .about-company {
+        padding-bottom: 66px;
+    }
+}
+
+@media(max-width:640px) {
+    .bg-figure .intro {
+        bottom: 5%;
+    }
+    .bg-figure .intro p {
+        font-size: 13px;
+    }
+    .bg-figure .intro h2 {
+        font-size: 25px;
+    }
+    .bg-figure .intro p {
+        width: 80%;
+    }
+    .botton-wrapper .botton {
+        padding: 8px 22px;
+        font-size: 12px;
+    }
+}
